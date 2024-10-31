@@ -1,0 +1,43 @@
+<!-- activity_intern_list.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F3E8FF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intern Management Application"
+        android:textSize="18sp"
+        android:textColor="#6D4AB3"
+        android:layout_marginBottom="8dp" />
+
+    <TableLayout
+        android:id="@+id/internTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView android:text="ID" />
+            <TextView android:text="Full Name" />
+            <TextView android:text="Rollnumber" />
+            <TextView android:text="Birth Date" />
+            <TextView android:text="GPA" />
+            <TextView android:text="IELTS" />
+        </TableRow>
+
+        <!-- Example data row, replace with dynamic data in your code -->
+        <TableRow>
+            <TextView android:text="1" />
+            <TextView android:text="Tran Duc Trung Kien" />
+            <TextView android:text="SE123456" />
+            <TextView android:text="10/12/2010" />
+            <TextView android:text="9.50" />
+            <TextView android:text="8.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

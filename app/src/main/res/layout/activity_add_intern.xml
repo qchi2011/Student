@@ -1,0 +1,85 @@
+<!-- activity_add_intern.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F3E8FF"
+    android:gravity="center_vertical">
+
+    <EditText
+        android:id="@+id/studentNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the Student Name" />
+
+    <EditText
+        android:id="@+id/rollNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the Rollnumber"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/birthdateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input student birthdate"
+        android:inputType="date"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/gpaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input student GPA"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <CheckBox
+        android:id="@+id/ieltsCertificationCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IELTS Certification possessed"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/overallGradeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Overall Grade"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/experienceInfoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Experiences Information"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/expectationInfoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Expectation Information"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/addInternButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Intern"
+        android:backgroundTint="#6D4AB3"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backToInternListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Intern List"
+        android:backgroundTint="#6D4AB3"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
